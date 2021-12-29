@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="trosi" directorySegmentName="seg_0" id="FB607E54-5431-9C73-B7DD-0F8BDCFD5F5F">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:47:20 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<targetPk>64F25A0B-B17B-758D-CFF5-1F59AA106498</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D18AE8D4-7C72-93D3-8D24-EB9D135168C5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2C28EBFD-33FB-CA74-39B1-E03E2E49FBD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="KOL_POTR" id="5D9AD7F2-701D-4CB7-A8F5-B8261E015C48">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:47:48 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

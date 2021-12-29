@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pripada" directorySegmentName="seg_0" id="134F2E02-C0A7-CFCF-8174-E66C6C88D707">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:35:13 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>79FB2890-A408-6797-892A-1F24B8F0A018</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC09E795-FF4B-4C7D-74FE-CE08FD799385</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

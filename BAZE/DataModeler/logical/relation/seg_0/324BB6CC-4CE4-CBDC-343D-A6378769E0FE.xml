@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zauzima" directorySegmentName="seg_0" id="324BB6CC-4CE4-CBDC-343D-A6378769E0FE">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:43:09 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<sourcePk>0EEFBDA8-9AB5-E9FE-628E-C6D349C177BF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8565CC3A-EE5F-85DF-6E4C-FB839BD065DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2866190-4FE2-C1B5-D6BF-14FC125BEB74</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

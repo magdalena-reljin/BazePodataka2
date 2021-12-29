@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="odrzava" directorySegmentName="seg_0" id="BF468A50-0697-7D3D-77A8-0CE262939E19">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:26:22 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1F5F6795-BEBB-FCA8-A19B-8380B6E46C1D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9ED4B16C-7737-FD0F-7413-3630E89FA44D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

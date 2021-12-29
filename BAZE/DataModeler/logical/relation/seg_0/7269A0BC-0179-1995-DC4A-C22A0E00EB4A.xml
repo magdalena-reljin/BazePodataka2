@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="termin se obavlja" directorySegmentName="seg_0" id="7269A0BC-0179-1995-DC4A-C22A0E00EB4A">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:44:52 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<sourcePk>032F5D36-5019-EA4D-624D-EC571F2E47B1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2866190-4FE2-C1B5-D6BF-14FC125BEB74</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2C28EBFD-33FB-CA74-39B1-E03E2E49FBD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

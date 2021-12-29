@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2866190-4FE2-C1B5-D6BF-14FC125BEB74" name="Termin">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:35:52 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_T" id="46ED83D3-F4BA-0020-BA84-2C4A04DA8053">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:36:02 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USL_T" id="A75E38EE-039B-2307-2860-B8F49CD09EF7">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:36:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_T" id="534F3D4E-8992-1FC8-8734-E05C75F34641">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:36:33 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VREME_T" id="EA4E4B61-B1BD-6F55-C037-5E88F0392262">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:37:00 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MBR" id="8575A1C9-753A-7A82-88BD-3C03038A5E91">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:38:16 UTC</createdTime>
+<generatorID>C1CDEE7D-F3E9-C7E1-D25B-012895CFA317</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>4F6CD103-2684-1E5E-2F6F-22CAB15C67BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MB" id="E3BD4CAB-E1F2-BB56-8987-23F9B944788C">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:38:16 UTC</createdTime>
+<generatorID>C1CDEE7D-F3E9-C7E1-D25B-012895CFA317</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>D9E5CF11-C58C-4939-2CC4-B6B53C69887C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RP" id="8785FA86-A742-7686-FDC9-75FD657BFE03">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:40:44 UTC</createdTime>
+<generatorID>9D6E6BAA-4FBC-DD64-1F42-66C3E17945B8</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>25743CD3-78DC-7375-D1D4-3E1FC3D4DB4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_KL" id="6A72F307-E60E-C8AC-6A91-A82ADE056089">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:43:21 UTC</createdTime>
+<generatorID>324BB6CC-4CE4-CBDC-343D-A6378769E0FE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>B6F8D142-BB91-F2F4-FA9C-9B4B4CCF61F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="032F5D36-5019-EA4D-624D-EC571F2E47B1" name="Termin PK">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:37:47 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46ED83D3-F4BA-0020-BA84-2C4A04DA8053</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

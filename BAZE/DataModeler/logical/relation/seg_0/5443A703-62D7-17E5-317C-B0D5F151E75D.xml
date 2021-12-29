@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="poseduje" directorySegmentName="seg_0" id="5443A703-62D7-17E5-317C-B0D5F151E75D">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:25:26 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<sourcePk>7B404839-2B9D-7E59-FA99-E1128E217733</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7D6EA88B-E7FD-6257-15C7-D4DFA961779A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5F8F5BA6-6506-CFF9-E4F9-289DB4716DD8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

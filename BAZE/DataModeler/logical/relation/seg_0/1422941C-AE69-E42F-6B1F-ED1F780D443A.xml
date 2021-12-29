@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zaposljava" directorySegmentName="seg_0" id="1422941C-AE69-E42F-6B1F-ED1F780D443A">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:14:50 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<sourcePk>7B404839-2B9D-7E59-FA99-E1128E217733</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7D6EA88B-E7FD-6257-15C7-D4DFA961779A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B87ABF56-EBE6-DF1F-A60D-18F81EAAFD31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

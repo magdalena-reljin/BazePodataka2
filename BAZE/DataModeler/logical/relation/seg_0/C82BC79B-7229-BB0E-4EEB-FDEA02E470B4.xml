@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ima cenu" directorySegmentName="seg_0" id="C82BC79B-7229-BB0E-4EEB-FDEA02E470B4">
+<createdBy>computer</createdBy>
+<createdTime>2021-12-27 19:33:07 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<sourcePk>E3F62CE8-5644-92C5-7EBB-973A79DB20AD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B4118737-74C8-B5DE-BC91-3D119A4576B8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC09E795-FF4B-4C7D-74FE-CE08FD799385</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
