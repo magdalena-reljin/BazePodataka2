@@ -1,1 +1,1 @@
-# BazePodataka2
+# BazePodataka2 - projekat
