@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBF2B29E-4A24-DA40-369F-798FEA916D8C" name="Klijent">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>8565CC3A-EE5F-85DF-6E4C-FB839BD065DB</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KL" id="4D35641D-76CF-5C80-7ED7-DE9EC514BEEA">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>B6F8D142-BB91-F2F4-FA9C-9B4B4CCF61F3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME_KL" id="B4BEFDAA-49D2-AF9D-3103-A881485AED6F">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>558C8105-3B39-9D34-294E-E48E1D6DB60A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZ_KL" id="1A879033-7B80-329D-3C8C-ED24FE4C481E">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>578709E4-A03B-3FCF-92E9-FBF5077A7200</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_KL" id="ADA1E37A-B800-9755-8AC5-D9D0216C2543">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>EF74EF98-BF2A-2497-C0A8-7E785A48A260</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDE34DAD-F7C3-2EA0-7E05-C5141CEB1538" name="Klijent_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>0EEFBDA8-9AB5-E9FE-628E-C6D349C177BF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D35641D-76CF-5C80-7ED7-DE9EC514BEEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

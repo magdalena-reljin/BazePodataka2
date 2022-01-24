@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99F28A55-C770-322F-5C29-D308D9295632" name="Kozmeticki_strucnjak">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>9D014169-118B-783E-86D1-BA6F9B374CF6</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR" id="1F3041AE-02EF-4F08-C375-29F932382134">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>4F6CD103-2684-1E5E-2F6F-22CAB15C67BE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5AE7793-76B1-42F0-EF28-670585A5523E" referredColumn="9A70B9BB-E764-DAF1-802C-39F56C3044DC"/>
+</associations>
+</Column>
+<Column name="SERTIFIKAT" id="37AE06B3-A46E-8E01-246D-AE026BA1ED34">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>69DF6F68-6DCC-55DD-5251-02503BDDFFEE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDUKATOR" id="DDAAFF9B-5B2E-2774-9605-BC85005A2007">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>CD945216-451E-ADB5-5D84-45C45B156BEC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12EF9762-CC87-61EB-8274-93D54C26E074" referredColumn="1F3041AE-02EF-4F08-C375-29F932382134"/>
+</associations>
+</Column>
+<Column name="MB" id="87623883-E104-7606-B336-C1C52EAB631D">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>D9E5CF11-C58C-4939-2CC4-B6B53C69887C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12EF9762-CC87-61EB-8274-93D54C26E074" referredColumn="87623883-E104-7606-B336-C1C52EAB631D"/>
+<colAssociation fkAssociation="F5AE7793-76B1-42F0-EF28-670585A5523E" referredColumn="52841D99-58BC-4BA6-785E-69B3B12238A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="904E1C05-AAC0-9C1B-A242-EAAF3304AF68" name="Kozmeticki_strucnjak_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>AE9F39B1-2A22-3F74-8E7F-9AA08EE5ABD4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F3041AE-02EF-4F08-C375-29F932382134"/>
+<colUsage columnID="87623883-E104-7606-B336-C1C52EAB631D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69782509-828D-1E9E-350D-534371B2FE06" name="Kozmeticki_strucnjak_Radnik_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>4E6CABC8-2002-8742-F5F4-C278590779D5</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F3041AE-02EF-4F08-C375-29F932382134"/>
+<colUsage columnID="87623883-E104-7606-B336-C1C52EAB631D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25951065-0247-CA40-5CC3-43ACBB6CD664" name="Kozmeticki_strucnjak_Kozmeticki_strucnjak_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>5C7D1930-3523-616F-80CA-7921A586992B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDAAFF9B-5B2E-2774-9605-BC85005A2007"/>
+<colUsage columnID="87623883-E104-7606-B336-C1C52EAB631D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

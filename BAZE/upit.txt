@@ -1,0 +1,34 @@
+create or replace view termini_po_popularnosti_januar as
+select usluga.id_usl as id_usl,usluga.naz_usl as naziv_usluge, count (obavlja_se.nudi_id_usl) as ukupno_izvrsenih_termina, 
+sum(cenovnik.cena_usl) as ukupno_din
+from cenovnik, termin, usluga right outer join obavlja_se on usluga.id_usl=obavlja_se.nudi_id_usl
+where obavlja_se.nudi_id_usl = cenovnik.usluga_id_usl and obavlja_se.nudi_id_usl=usluga.id_usl and termin.recepcioner_mb=1234
+and termin.id_t= obavlja_se.termin_id_t and termin.dat_t>= '01-JAN-2022' and termin.dat_t<= '31-JAN-2022'
+group by usluga.id_usl,usluga.naz_usl
+order by ukupno_izvrsenih_termina desc;
+
+create or replace view ukupna_zarada_salona_januar as
+select s.mb,s.naziv_s as salon,sum(termini.ukupno_din) as ukupna_zarada
+from termini_po_popularnosti_januar termini, salon_lepote s
+where s.mb = (select mb from salon_lepote)
+group by s.mb,s.naziv_s;
+
+create or replace view kozmeticki_strucnjaci_po_popluarnosti_januar as
+select r.mbr,r.ime_r as ime,r.prz_r as prezime, count(r.mbr) as obavljenih_usluga, sum(c.cena_usl) as ukupna_zarada,
+round((sum(c.cena_usl)*100)/uk.ukupna_zarada,2) as udeo_u_zaradi
+from radnik r,kozmeticki_strucnjak k, obavlja_se o, termin t, cenovnik c, ukupna_zarada_salona_januar uk
+where r.mbr=k.mbr and o.nudi_kozmeticki_strucnjak_mbr=r.mbr and t.id_t=o.termin_id_t and
+t.dat_t>= '01-JAN-2022' and t.dat_t<= '31-JAN-2022' and c.usluga_id_usl=o.nudi_id_usl and uk.mb=r.salon_lepote_mb
+group by r.mbr,r.ime_r,r.prz_r,uk.ukupna_zarada
+order by obavljenih_usluga desc;
+
+create or replace view klijenti_januar as
+select k.ime_kl,k.prz_kl,count(k.id_kl) as broj_termina
+from klijent k,obavlja_se os,termin t
+where k.id_kl=t.klijent_id_kl and t.recepcioner_mb=1234 and os.termin_id_t=t.id_t and 
+t.dat_t>= '01-JAN-2022' and t.dat_t<= '31-JAN-2022'
+group by k.ime_kl,k.prz_kl
+order by broj_termina desc;
+
+
+

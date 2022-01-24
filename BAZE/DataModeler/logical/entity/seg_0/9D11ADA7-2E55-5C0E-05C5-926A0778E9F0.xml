@@ -15,10 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="MBR" id="FECD3825-7B56-D31C-372B-D57776893E78">
+<Attribute name="ID_USL" id="AA075728-BB08-FAC4-5804-16983408BB05">
 <createdBy>computer</createdBy>
-<createdTime>2021-12-27 19:30:31 UTC</createdTime>
-<generatorID>194CB179-113B-1159-5746-55FAB73897C8</generatorID>
+<createdTime>2021-12-27 19:30:50 UTC</createdTime>
+<generatorID>95DFC2B7-7DE4-6FEB-6D6B-BD968DDCF565</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>148F2275-7821-9D91-B8B9-182BDA8C6687</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MBR" id="F1FA51A6-6929-BBE2-09E4-612E46054155">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-09 13:55:50 UTC</createdTime>
+<generatorID>40871A7C-F9A3-4EFA-0931-C9A5FB2F6012</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
@@ -29,29 +43,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MB" id="2FF1F7B3-EC5C-97F7-52E7-50DC9A17202B">
+<Attribute name="MB" id="2F46D7F9-8BE9-E14B-7235-C771A8D773A6">
 <createdBy>computer</createdBy>
-<createdTime>2021-12-27 19:30:31 UTC</createdTime>
-<generatorID>194CB179-113B-1159-5746-55FAB73897C8</generatorID>
+<createdTime>2022-01-09 13:55:50 UTC</createdTime>
+<generatorID>40871A7C-F9A3-4EFA-0931-C9A5FB2F6012</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
 </engineerTo>
 <referedAttribute>D9E5CF11-C58C-4939-2CC4-B6B53C69887C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_USL" id="AA075728-BB08-FAC4-5804-16983408BB05">
-<createdBy>computer</createdBy>
-<createdTime>2021-12-27 19:30:50 UTC</createdTime>
-<generatorID>95DFC2B7-7DE4-6FEB-6D6B-BD968DDCF565</generatorID>
-<ownerDesignName>DataModeler</ownerDesignName>
-<engineerTo>
-<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
-</engineerTo>
-<referedAttribute>148F2275-7821-9D91-B8B9-182BDA8C6687</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -68,9 +68,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FECD3825-7B56-D31C-372B-D57776893E78</attributeRef>
-<attributeRef>2FF1F7B3-EC5C-97F7-52E7-50DC9A17202B</attributeRef>
 <attributeRef>AA075728-BB08-FAC4-5804-16983408BB05</attributeRef>
+<attributeRef>F1FA51A6-6929-BBE2-09E4-612E46054155</attributeRef>
+<attributeRef>2F46D7F9-8BE9-E14B-7235-C771A8D773A6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

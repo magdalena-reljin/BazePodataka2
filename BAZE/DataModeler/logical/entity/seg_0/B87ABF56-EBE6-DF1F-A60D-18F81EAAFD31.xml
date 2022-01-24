@@ -14,6 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>E63925C2-30E3-2565-9A6C-4845EE477771</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="MBR" id="4F6CD103-2684-1E5E-2F6F-22CAB15C67BE">
 <createdBy>computer</createdBy>
@@ -36,7 +38,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
@@ -49,7 +51,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
@@ -60,9 +62,10 @@
 <engineerTo>
 <item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
@@ -76,8 +79,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PLT_R" id="11534911-930B-C61E-F493-7C8A01E2D09B">
 <createdBy>computer</createdBy>
@@ -86,13 +88,10 @@
 <engineerTo>
 <item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<dataTypeScale>3</dataTypeScale>
-<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MB" id="D9E5CF11-C58C-4939-2CC4-B6B53C69887C">
 <createdBy>computer</createdBy>
@@ -114,8 +113,9 @@
 <createdBy>computer</createdBy>
 <createdTime>2021-12-27 19:11:12 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

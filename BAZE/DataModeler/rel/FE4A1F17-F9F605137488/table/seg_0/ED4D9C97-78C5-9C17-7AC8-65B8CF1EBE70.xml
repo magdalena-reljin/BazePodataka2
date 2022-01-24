@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED4D9C97-78C5-9C17-7AC8-65B8CF1EBE70" name="Racun">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>79FB2890-A408-6797-892A-1F24B8F0A018</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_R" id="1122C529-74F2-E3EF-76A6-6CFFD5B06BFD">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>46D4DD68-7EF1-B0D0-6305-507ED1BBE1EF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_R" id="43453505-F368-E504-71AE-9EAECDE32A14">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>6F43F26A-6111-E006-448D-9977438EF056</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UK_CENA" id="5B5C6ED8-7D07-1183-6EB5-1E92BB0927FE">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>57025618-3D22-D1BD-99C2-38397912F914</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39721EBB-CD4B-D627-E60E-F8379507643D" name="Racun_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>6AC7AA06-2356-E5EE-A42E-F72EE154AA90</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1122C529-74F2-E3EF-76A6-6CFFD5B06BFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

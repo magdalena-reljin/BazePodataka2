@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="628D2D31-D7CF-A8FF-6AFB-81DBFA7B7FE3" name="Radnik">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>B87ABF56-EBE6-DF1F-A60D-18F81EAAFD31</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR" id="9A70B9BB-E764-DAF1-802C-39F56C3044DC">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>4F6CD103-2684-1E5E-2F6F-22CAB15C67BE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME_R" id="40E874B5-3931-1D67-2989-E2E167D53F4D">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>0F5638C7-63DB-CD6F-AD51-41A399012E8A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZ_R" id="13347902-3A7F-8947-8013-49CF861C06A1">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>B13BD940-C6A2-B079-3BE9-E97CBB4FE47F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_R" id="C222AF77-AB0C-FED6-9BC1-F03F75D0CC98">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>FE03646B-9A05-F357-D512-32AAB7335C5F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAN_R" id="489B42A3-E59D-01E7-C0D2-9E67FC6DE545">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>E63925C2-30E3-2565-9A6C-4845EE477771</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<constraintName>CH_INH_Radnik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="Kozmeticki_strucnjak" description="entity Kozmeticki strucnjak"/>
+<valueDef value="Radnik" description="entity Radnik"/>
+<valueDef value="Recepcioner" description="entity Recepcioner"/>
+<valueDef value="Serviser" description="entity Serviser"/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="PLT_R" id="70B48EA7-CA9E-DB66-42BC-62695FD6FA6B">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>11534911-930B-C61E-F493-7C8A01E2D09B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salon_lepote_MB" id="52841D99-58BC-4BA6-785E-69B3B12238A9">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>D9E5CF11-C58C-4939-2CC4-B6B53C69887C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49985600-C8D1-7CFD-FB35-1B222BB424B6" referredColumn="225EE1FC-18FC-1787-802F-1A43A9EBA8F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76F7BC5C-5D30-6A57-4454-F9B37B078A0E" name="Radnik_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>AE9F39B1-2A22-3F74-8E7F-9AA08EE5ABD4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A70B9BB-E764-DAF1-802C-39F56C3044DC"/>
+<colUsage columnID="52841D99-58BC-4BA6-785E-69B3B12238A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="903B8649-A030-0109-1D2E-8DACA66939AF" name="Radnik_Salon_lepote_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>1422941C-AE69-E42F-6B1F-ED1F780D443A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52841D99-58BC-4BA6-785E-69B3B12238A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

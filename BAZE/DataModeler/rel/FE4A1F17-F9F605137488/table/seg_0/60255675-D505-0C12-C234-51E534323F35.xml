@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60255675-D505-0C12-C234-51E534323F35" name="Preparat">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>D18AE8D4-7C72-93D3-8D24-EB9D135168C5</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KO" id="DE170014-71AA-0B6D-F7AF-61F03F481467">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>FBDAE2F8-DD7B-F45C-072F-DF9B6D394082</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60E70404-C7DD-F1EB-5953-E3135ABB6057" referredColumn="BF250595-6178-D6CD-9C9D-D01A0366B4BD"/>
+</associations>
+</Column>
+<Column name="KOL_ML" id="A178A910-5F7A-9C0C-F695-2DC37AC2F8A8">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>99F7C5DD-C952-DD77-B5EC-D708AB5DB5A9</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROK" id="A25B5529-F79A-28AB-B2EB-DB59BB75BB3D">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>201A5E8A-3214-5574-A72D-23E965C30DB7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC42F37E-1732-F50C-B535-501CE571F3BD" name="Preparat_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>39B91DBE-2BCC-2FA6-E8CD-FAD664E89B17</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE170014-71AA-0B6D-F7AF-61F03F481467"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B43C4969-7721-23A6-8CAB-16D582AEA39F" name="Preparat_Kozmeticka_oprema_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>745BD225-191D-199C-4041-19C5F8FA37AD</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE170014-71AA-0B6D-F7AF-61F03F481467"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

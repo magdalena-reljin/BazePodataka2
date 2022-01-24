@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9B02307-1A31-B52D-1BD7-B075BFEFEB28" name="Kozmeticka_oprema">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>5F8F5BA6-6506-CFF9-E4F9-289DB4716DD8</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KO" id="BF250595-6178-D6CD-9C9D-D01A0366B4BD">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>FBDAE2F8-DD7B-F45C-072F-DF9B6D394082</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_KO" id="B106D200-3F76-5765-0D9E-B551694C44C4">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>443E7943-894A-3767-AE6F-C24EC87E4E5D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_KO" id="F6098D7C-BC1E-BEE3-3FCA-14267E9B2915">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>DA2E0CC0-C0C0-9998-D9CC-42161C77BA05</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<constraintName>CH_INH_Kozmeticka_oprema</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<listOfValues>
+<valueDef value="Aparat" description="entity Aparat"/>
+<valueDef value="Kozmeticka_oprema" description="entity Kozmeticka oprema"/>
+<valueDef value="Preparat" description="entity Preparat"/>
+</listOfValues>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="KOL_KO" id="4EC0BCB8-8B36-05AF-66A5-04F5F82CA156">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>879EEB8B-4ABF-0FA6-202F-EAB1DEB2D35C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_KO" id="77713FC4-19A4-278D-4ED5-A8EEF7BCA65E">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>29EE322C-5689-79F9-BD88-65B5C7B2028A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salon_lepote_MB" id="6B21D248-F352-AB7F-9ECC-B0AFFC8E06A3">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>0565E51B-223F-DCD5-07C0-C60740473AEE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F32AECA8-F5CE-EFFB-AD12-82551D6D327F" referredColumn="225EE1FC-18FC-1787-802F-1A43A9EBA8F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEC80B5F-0BFB-11D1-C0F0-39A74A7B61EA" name="Kozmeticka_oprema_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>39B91DBE-2BCC-2FA6-E8CD-FAD664E89B17</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF250595-6178-D6CD-9C9D-D01A0366B4BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD412ADA-E110-32BD-3C05-961A8985F759" name="Kozmeticka_oprema_Salon_lepote_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>5443A703-62D7-17E5-317C-B0D5F151E75D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B21D248-F352-AB7F-9ECC-B0AFFC8E06A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

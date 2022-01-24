@@ -15,34 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="MBR" id="0C24FC38-E43C-7CEA-3D65-BF7A9CEE1691">
-<createdBy>computer</createdBy>
-<createdTime>2021-12-27 19:44:21 UTC</createdTime>
-<generatorID>60A7E0FE-6218-EFF9-EDBF-18A63C713CDD</generatorID>
-<ownerDesignName>DataModeler</ownerDesignName>
-<engineerTo>
-<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
-</engineerTo>
-<referedAttribute>FECD3825-7B56-D31C-372B-D57776893E78</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="MB" id="538C46F4-8F81-5390-2B88-68B3C081F03C">
-<createdBy>computer</createdBy>
-<createdTime>2021-12-27 19:44:21 UTC</createdTime>
-<generatorID>60A7E0FE-6218-EFF9-EDBF-18A63C713CDD</generatorID>
-<ownerDesignName>DataModeler</ownerDesignName>
-<engineerTo>
-<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
-</engineerTo>
-<referedAttribute>2FF1F7B3-EC5C-97F7-52E7-50DC9A17202B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID_USL" id="BACD43E6-A36B-AAEB-09B3-04031874037E">
 <createdBy>computer</createdBy>
 <createdTime>2021-12-27 19:44:21 UTC</createdTime>
@@ -71,20 +43,63 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="MBR" id="21DDD7DF-0BF4-6900-93D3-AA3C13E6A0C9">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-09 13:55:50 UTC</createdTime>
+<generatorID>60A7E0FE-6218-EFF9-EDBF-18A63C713CDD</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>F1FA51A6-6929-BBE2-09E4-612E46054155</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MB" id="4F81EF46-ECBD-238B-9736-386A748FF29E">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-09 13:55:50 UTC</createdTime>
+<generatorID>60A7E0FE-6218-EFF9-EDBF-18A63C713CDD</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>2F46D7F9-8BE9-E14B-7235-C771A8D773A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_KO" id="BEAD07E1-57E5-EAA7-C092-06551CBEBA74">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-11 14:55:08 UTC</createdTime>
+<generatorID>FB607E54-5431-9C73-B7DD-0F8BDCFD5F5F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<referedAttribute>FBDAE2F8-DD7B-F45C-072F-DF9B6D394082</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="64F25A0B-B17B-758D-CFF5-1F59AA106498" name="Obavlja se PK">
 <createdBy>computer</createdBy>
 <createdTime>2021-12-27 19:44:21 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0C24FC38-E43C-7CEA-3D65-BF7A9CEE1691</attributeRef>
-<attributeRef>538C46F4-8F81-5390-2B88-68B3C081F03C</attributeRef>
 <attributeRef>BACD43E6-A36B-AAEB-09B3-04031874037E</attributeRef>
+<attributeRef>21DDD7DF-0BF4-6900-93D3-AA3C13E6A0C9</attributeRef>
+<attributeRef>4F81EF46-ECBD-238B-9736-386A748FF29E</attributeRef>
 <attributeRef>1C33F72B-30F5-6733-968C-3EACE7D6C25E</attributeRef>
 </usedAttributes>
 </identifier>

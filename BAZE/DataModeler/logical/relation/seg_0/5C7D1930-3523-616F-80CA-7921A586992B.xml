@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="edukacija" directorySegmentName="seg_0" id="5C7D1930-3523-616F-80CA-7921A586992B">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-11 12:39:54 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<targetPk>AE9F39B1-2A22-3F74-8E7F-9AA08EE5ABD4</targetPk>
+<identifying>false</identifying>
+<nameOnSource>je edukator</nameOnSource>
+<nameOnTarget>ima edukatora</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D014169-118B-783E-86D1-BA6F9B374CF6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D014169-118B-783E-86D1-BA6F9B374CF6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

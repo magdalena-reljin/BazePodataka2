@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="662F79B8-77CB-27BC-72B8-3B0C0FAB808E" containerWithKeyObject="14C646C2-65F6-082D-8919-1010D20B275C" localFKIndex="9D6D1AED-F63D-E0BC-E4D3-1BBDB8CC65D2" name="Aparat_Kozmeticka_oprema_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>41E971BF-19D0-D9F7-CD13-E03D1F8367D1</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Kozmeticka_oprema</referredTableLongName>
+<arc>3C7B104C-0C3E-7E81-3992-BFDE59891DB8</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F9B02307-1A31-B52D-1BD7-B075BFEFEB28</referredTableID>
+<keyObject>FEC80B5F-0BFB-11D1-C0F0-39A74A7B61EA</keyObject>
+<referredKeyID>FEC80B5F-0BFB-11D1-C0F0-39A74A7B61EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_KO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Aparat</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

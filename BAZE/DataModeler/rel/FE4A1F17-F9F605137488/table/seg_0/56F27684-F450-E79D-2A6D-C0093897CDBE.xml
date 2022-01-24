@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56F27684-F450-E79D-2A6D-C0093897CDBE" name="Obavlja_se">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>2C28EBFD-33FB-CA74-39B1-E03E2E49FBD7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nudi_ID_USL" id="99FC9695-4F9A-9144-C418-F0A9B8577438">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>BACD43E6-A36B-AAEB-09B3-04031874037E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA0AAB8D-E0FC-AF53-47C2-117DB3CB30F2" referredColumn="92139230-A5E8-42DA-63BC-121D2F806FA5"/>
+</associations>
+</Column>
+<Column name="Termin_ID_T" id="7E9A6D47-2F28-6851-908F-77CE0B98929E">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>1C33F72B-30F5-6733-968C-3EACE7D6C25E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B06D047B-E0FB-4671-F9CD-3FE936FC7403" referredColumn="BD5A8889-77A8-F5B1-F0D1-30D7C61DC154"/>
+</associations>
+</Column>
+<Column name="Nudi_Kozmeticki_strucnjak_MBR" id="BA09C36C-D0A7-C883-C470-65324BFF9695">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>21DDD7DF-0BF4-6900-93D3-AA3C13E6A0C9</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA0AAB8D-E0FC-AF53-47C2-117DB3CB30F2" referredColumn="4EE9A7D5-466D-8403-FFEB-017F81C99CA7"/>
+</associations>
+</Column>
+<Column name="Nudi_Kozmeticki_strucnjak_MB" id="96250176-EAE7-A08D-04BA-6160DD083032">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>4F81EF46-ECBD-238B-9736-386A748FF29E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA0AAB8D-E0FC-AF53-47C2-117DB3CB30F2" referredColumn="7BF4AEF4-3704-62C5-DF07-0ABBEFB494C4"/>
+</associations>
+</Column>
+<Column name="Preparat_ID_KO" id="A5CC587D-FA44-378E-D9CF-28D25D7A883D">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>BEAD07E1-57E5-EAA7-C092-06551CBEBA74</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48C9208D-B964-616C-FF9E-DAAE02A7F1C7" referredColumn="DE170014-71AA-0B6D-F7AF-61F03F481467"/>
+</associations>
+</Column>
+<Column name="KOL_POTR" id="C83E88E0-BA60-4F9A-8566-932F0FEC8EFD">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>5D9AD7F2-701D-4CB7-A8F5-B8261E015C48</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>48C9208D-B964-616C-FF9E-DAAE02A7F1C7</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF6A9354-9D3F-1F8F-701A-7CBC956B1A9C" name="Obavlja_se_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>64F25A0B-B17B-758D-CFF5-1F59AA106498</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99FC9695-4F9A-9144-C418-F0A9B8577438"/>
+<colUsage columnID="BA09C36C-D0A7-C883-C470-65324BFF9695"/>
+<colUsage columnID="96250176-EAE7-A08D-04BA-6160DD083032"/>
+<colUsage columnID="7E9A6D47-2F28-6851-908F-77CE0B98929E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBF82BAD-A5B8-5A79-1E5F-5DBAF91800F0" name="Obavlja_se__IDX">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7269A0BC-0179-1995-DC4A-C22A0E00EB4A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7E9A6D47-2F28-6851-908F-77CE0B98929E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D549F0A-4382-14D6-B1F5-DBE6064F7D6E" name="Obavlja_se_Nudi_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>60A7E0FE-6218-EFF9-EDBF-18A63C713CDD</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99FC9695-4F9A-9144-C418-F0A9B8577438"/>
+<colUsage columnID="BA09C36C-D0A7-C883-C470-65324BFF9695"/>
+<colUsage columnID="96250176-EAE7-A08D-04BA-6160DD083032"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC9D6BD3-168C-C54D-13E6-7540A4544611" name="Obavlja_se_Termin_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>7269A0BC-0179-1995-DC4A-C22A0E00EB4A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E9A6D47-2F28-6851-908F-77CE0B98929E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC4E15B8-5C51-84F7-4EB7-B26BF9C29422" name="Obavlja_se_Preparat_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>FB607E54-5431-9C73-B7DD-0F8BDCFD5F5F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5CC587D-FA44-378E-D9CF-28D25D7A883D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD2A8D85-C218-7315-0EF5-5ECEA7B407CC" name="odrzava">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Serviser_MBR" id="E5877E89-045C-1118-4305-BB5A8F233EE2">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5652AE4-DCA6-8564-2517-9A256BF42813" referredColumn="B7D2940F-DF86-72AA-6885-935B1E00F2CA"/>
+</associations>
+</Column>
+<Column name="Serviser_MB" id="AB7F5615-B949-8A15-5AFE-C6588F6DEDE2">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5652AE4-DCA6-8564-2517-9A256BF42813" referredColumn="92ABA2E6-BA23-631F-11F4-A7AB3ABCA675"/>
+</associations>
+</Column>
+<Column name="Aparat_ID_KO" id="2C7E3BFD-8993-3952-3D0A-53AF5E59A32A">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="848709D9-D4BE-C7F9-B523-E6746504C655" referredColumn="F4D801F7-30F7-170A-ACE8-4D9996970716"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7D3D365-2A6C-0A13-F2E9-EA4C424D1E49" name="odrzava_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5877E89-045C-1118-4305-BB5A8F233EE2"/>
+<colUsage columnID="AB7F5615-B949-8A15-5AFE-C6588F6DEDE2"/>
+<colUsage columnID="2C7E3BFD-8993-3952-3D0A-53AF5E59A32A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77C235F2-55FB-901A-C657-D10DEAF9D436" name="odrzava_Serviser_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>BF468A50-0697-7D3D-77A8-0CE262939E19</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5877E89-045C-1118-4305-BB5A8F233EE2"/>
+<colUsage columnID="AB7F5615-B949-8A15-5AFE-C6588F6DEDE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="482E0E9E-1B33-BCB2-51B6-A0ED06BEF117" name="odrzava_Aparat_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>BF468A50-0697-7D3D-77A8-0CE262939E19</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C7E3BFD-8993-3952-3D0A-53AF5E59A32A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

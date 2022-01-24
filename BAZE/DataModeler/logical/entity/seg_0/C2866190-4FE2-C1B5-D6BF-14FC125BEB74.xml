@@ -36,9 +36,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DAT_T" id="534F3D4E-8992-1FC8-8734-E05C75F34641">
 <createdBy>computer</createdBy>
@@ -61,9 +61,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MBR" id="8575A1C9-753A-7A82-88BD-3C03038A5E91">
 <createdBy>computer</createdBy>
@@ -127,8 +127,9 @@
 <createdBy>computer</createdBy>
 <createdTime>2021-12-27 19:37:47 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

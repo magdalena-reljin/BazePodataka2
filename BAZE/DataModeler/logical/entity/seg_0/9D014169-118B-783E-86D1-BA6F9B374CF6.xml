@@ -30,5 +30,35 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="MBR" id="CD945216-451E-ADB5-5D84-45C45B156BEC">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-11 12:40:22 UTC</createdTime>
+<generatorID>5C7D1930-3523-616F-80CA-7921A586992B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4F6CD103-2684-1E5E-2F6F-22CAB15C67BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MB" id="3A881371-D8C9-ACC7-1293-44F2192C243E">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-11 12:40:22 UTC</createdTime>
+<generatorID>5C7D1930-3523-616F-80CA-7921A586992B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D9E5CF11-C58C-4939-2CC4-B6B53C69887C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

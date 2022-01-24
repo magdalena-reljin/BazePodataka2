@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CB29631-E2B0-BFA6-F90E-58615265BA2A" name="Nudi">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>9D11ADA7-2E55-5C0E-05C5-926A0778E9F0</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usluga_ID_USL" id="92139230-A5E8-42DA-63BC-121D2F806FA5">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>AA075728-BB08-FAC4-5804-16983408BB05</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB98F65E-A809-157B-6447-25517F7A8D80" referredColumn="D4594C99-CA2B-644F-00CF-30B7CA3B7B2C"/>
+</associations>
+</Column>
+<Column name="Kozmeticki_strucnjak_MBR" id="4EE9A7D5-466D-8403-FFEB-017F81C99CA7">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>F1FA51A6-6929-BBE2-09E4-612E46054155</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D00F69-CEA1-993B-20F9-6893F3B2FC47" referredColumn="1F3041AE-02EF-4F08-C375-29F932382134"/>
+</associations>
+</Column>
+<Column name="Kozmeticki_strucnjak_MB" id="7BF4AEF4-3704-62C5-DF07-0ABBEFB494C4">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>2F46D7F9-8BE9-E14B-7235-C771A8D773A6</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D00F69-CEA1-993B-20F9-6893F3B2FC47" referredColumn="87623883-E104-7606-B336-C1C52EAB631D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46EE1BC2-C531-2CCD-801B-159E3BAD8AB9" name="Nudi_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>E7704B8C-006C-3B57-7330-CC8656ABADD5</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92139230-A5E8-42DA-63BC-121D2F806FA5"/>
+<colUsage columnID="4EE9A7D5-466D-8403-FFEB-017F81C99CA7"/>
+<colUsage columnID="7BF4AEF4-3704-62C5-DF07-0ABBEFB494C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BC39F64-2D74-31D6-3CC5-3F3FC70B741C" name="Nudi_Kozmeticki_strucnjak_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>40871A7C-F9A3-4EFA-0931-C9A5FB2F6012</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EE9A7D5-466D-8403-FFEB-017F81C99CA7"/>
+<colUsage columnID="7BF4AEF4-3704-62C5-DF07-0ABBEFB494C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59D2CB8C-2740-F17E-AF71-73A480BBE2D1" name="Nudi_Usluga_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>95DFC2B7-7DE4-6FEB-6D6B-BD968DDCF565</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92139230-A5E8-42DA-63BC-121D2F806FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

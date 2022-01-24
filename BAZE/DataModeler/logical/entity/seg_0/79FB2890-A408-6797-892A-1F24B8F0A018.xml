@@ -48,10 +48,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -59,8 +57,9 @@
 <createdBy>computer</createdBy>
 <createdTime>2021-12-27 19:33:53 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="true"/>
+<item key="FE4A1F17-A0E5-3F0A-5F09-F9F605137488" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

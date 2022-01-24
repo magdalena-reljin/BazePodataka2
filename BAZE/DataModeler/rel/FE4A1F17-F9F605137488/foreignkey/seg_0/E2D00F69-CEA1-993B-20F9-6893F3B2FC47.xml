@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2D00F69-CEA1-993B-20F9-6893F3B2FC47" containerWithKeyObject="8CB29631-E2B0-BFA6-F90E-58615265BA2A" localFKIndex="1BC39F64-2D74-31D6-3CC5-3F3FC70B741C" name="Nudi_Kozmeticki_strucnjak_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>40871A7C-F9A3-4EFA-0931-C9A5FB2F6012</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Kozmeticki_strucnjak</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99F28A55-C770-322F-5C29-D308D9295632</referredTableID>
+<keyObject>904E1C05-AAC0-9C1B-A242-EAAF3304AF68</keyObject>
+<referredKeyID>904E1C05-AAC0-9C1B-A242-EAAF3304AF68</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MBR,MB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

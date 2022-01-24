@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2E86AAE-4AAF-7F0F-3FFD-5E9F660C37CA" name="Recepcioner">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>C404BF63-AA88-865C-9FEA-2D3980635794</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR" id="CA751707-210C-9E5C-CF0A-3FAF22E855D4">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>4F6CD103-2684-1E5E-2F6F-22CAB15C67BE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="996C7171-906F-5300-FCAB-96812DBFB774" referredColumn="9A70B9BB-E764-DAF1-802C-39F56C3044DC"/>
+</associations>
+</Column>
+<Column name="MB" id="D837EBE8-8FC5-939C-4D21-00C3DE9F7577">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>D9E5CF11-C58C-4939-2CC4-B6B53C69887C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="996C7171-906F-5300-FCAB-96812DBFB774" referredColumn="52841D99-58BC-4BA6-785E-69B3B12238A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8297EBF-2FAA-F98F-9DE9-2DAA44FC4230" name="Recepcioner_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>AE9F39B1-2A22-3F74-8E7F-9AA08EE5ABD4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA751707-210C-9E5C-CF0A-3FAF22E855D4"/>
+<colUsage columnID="D837EBE8-8FC5-939C-4D21-00C3DE9F7577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3899FD4B-82F5-A5FE-BAD7-F24232C1FAA1" name="Recepcioner_Radnik_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>148DEE29-4B7A-BAF8-A566-865A206CA896</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA751707-210C-9E5C-CF0A-3FAF22E855D4"/>
+<colUsage columnID="D837EBE8-8FC5-939C-4D21-00C3DE9F7577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

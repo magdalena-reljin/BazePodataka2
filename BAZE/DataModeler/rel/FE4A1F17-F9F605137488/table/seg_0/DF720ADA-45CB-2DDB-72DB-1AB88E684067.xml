@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF720ADA-45CB-2DDB-72DB-1AB88E684067" name="pripada">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Racun_ID_R" id="35220B7A-4317-9579-B054-9E6AF36844A0">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F987944-5F68-4DCD-F0EE-A16E276DFE43" referredColumn="1122C529-74F2-E3EF-76A6-6CFFD5B06BFD"/>
+</associations>
+</Column>
+<Column name="Cenovnik_DAT_P" id="A60320CA-F5BA-B412-3BF2-C562D7937890">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44FBB2E9-7510-132C-374D-BF61D4EABE2A" referredColumn="BB5DCB3F-2D19-6AED-8340-88F268A6011B"/>
+</associations>
+</Column>
+<Column name="Cenovnik_Usluga_ID_USL" id="FC33FEFA-1A15-3976-003B-168B9E6017C7">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44FBB2E9-7510-132C-374D-BF61D4EABE2A" referredColumn="4920BAAF-E8C8-E527-218A-7F13F6D6BBD2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E919A23-6283-DE7E-5DCB-C0218D4D68E9" name="pripada_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35220B7A-4317-9579-B054-9E6AF36844A0"/>
+<colUsage columnID="A60320CA-F5BA-B412-3BF2-C562D7937890"/>
+<colUsage columnID="FC33FEFA-1A15-3976-003B-168B9E6017C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECE2DE5A-13D6-41B3-2216-861966F3232C" name="pripada_Racun_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>134F2E02-C0A7-CFCF-8174-E66C6C88D707</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35220B7A-4317-9579-B054-9E6AF36844A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3577FFDC-8B1B-6AB6-67A8-870A51DC0EE6" name="pripada_Cenovnik_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>134F2E02-C0A7-CFCF-8174-E66C6C88D707</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A60320CA-F5BA-B412-3BF2-C562D7937890"/>
+<colUsage columnID="FC33FEFA-1A15-3976-003B-168B9E6017C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

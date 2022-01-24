@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F32AECA8-F5CE-EFFB-AD12-82551D6D327F" containerWithKeyObject="F9B02307-1A31-B52D-1BD7-B075BFEFEB28" localFKIndex="AD412ADA-E110-32BD-3C05-961A8985F759" name="Kozmeticka_oprema_Salon_lepote_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>5443A703-62D7-17E5-317C-B0D5F151E75D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Salon_lepote</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C8CB842-5F03-CE18-BDCD-98EF24F5B219</referredTableID>
+<keyObject>31D02850-F33F-2CB2-9FA3-848DA75DD5D3</keyObject>
+<referredKeyID>31D02850-F33F-2CB2-9FA3-848DA75DD5D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

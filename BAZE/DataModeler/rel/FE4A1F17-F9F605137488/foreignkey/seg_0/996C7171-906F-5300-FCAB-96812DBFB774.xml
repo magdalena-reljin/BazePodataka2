@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="996C7171-906F-5300-FCAB-96812DBFB774" containerWithKeyObject="A2E86AAE-4AAF-7F0F-3FFD-5E9F660C37CA" localFKIndex="3899FD4B-82F5-A5FE-BAD7-F24232C1FAA1" name="Recepcioner_Radnik_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>148DEE29-4B7A-BAF8-A566-865A206CA896</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>8B98B8D0-99E8-40D5-76CC-1FE6D201AD62</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>628D2D31-D7CF-A8FF-6AFB-81DBFA7B7FE3</referredTableID>
+<keyObject>76F7BC5C-5D30-6A57-4454-F9B37B078A0E</keyObject>
+<referredKeyID>76F7BC5C-5D30-6A57-4454-F9B37B078A0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MBR,Salon_lepote_MB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Recepcioner</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

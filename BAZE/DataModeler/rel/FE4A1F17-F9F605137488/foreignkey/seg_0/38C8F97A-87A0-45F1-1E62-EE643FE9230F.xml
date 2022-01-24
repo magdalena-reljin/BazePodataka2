@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38C8F97A-87A0-45F1-1E62-EE643FE9230F" containerWithKeyObject="56C4E2CF-5D90-7228-B87F-8473178A6358" localFKIndex="372189EB-E6B1-8D73-E3CE-6CB57D305FEA" name="Termin_Raspored_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>9D6E6BAA-4FBC-DD64-1F42-66C3E17945B8</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Raspored</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD263CD3-79C2-626B-3BDC-E49674E316D6</referredTableID>
+<keyObject>9168640A-3AF5-71E2-93B1-A581AD400B9F</keyObject>
+<referredKeyID>9168640A-3AF5-71E2-93B1-A581AD400B9F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

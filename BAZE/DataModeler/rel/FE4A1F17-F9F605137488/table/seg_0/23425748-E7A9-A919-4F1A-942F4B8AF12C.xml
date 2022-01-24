@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23425748-E7A9-A919-4F1A-942F4B8AF12C" name="Serviser">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:16 UTC</createdTime>
+<generatorID>1F5F6795-BEBB-FCA8-A19B-8380B6E46C1D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR" id="B7D2940F-DF86-72AA-6885-935B1E00F2CA">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>4F6CD103-2684-1E5E-2F6F-22CAB15C67BE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A0A2243-FDE4-1386-7BEA-01F20EF8A603" referredColumn="9A70B9BB-E764-DAF1-802C-39F56C3044DC"/>
+</associations>
+</Column>
+<Column name="MB" id="92ABA2E6-BA23-631F-11F4-A7AB3ABCA675">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>D9E5CF11-C58C-4939-2CC4-B6B53C69887C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A0A2243-FDE4-1386-7BEA-01F20EF8A603" referredColumn="52841D99-58BC-4BA6-785E-69B3B12238A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADA3E2D6-1C16-D924-05AE-9A4814EE7F75" name="Serviser_PK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>AE9F39B1-2A22-3F74-8E7F-9AA08EE5ABD4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7D2940F-DF86-72AA-6885-935B1E00F2CA"/>
+<colUsage columnID="92ABA2E6-BA23-631F-11F4-A7AB3ABCA675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA80CF85-FAB7-AEB4-A569-9E13BA135848" name="Serviser_Radnik_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>432AF12A-DEBE-DD8A-DA4E-B7A90F917002</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7D2940F-DF86-72AA-6885-935B1E00F2CA"/>
+<colUsage columnID="92ABA2E6-BA23-631F-11F4-A7AB3ABCA675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

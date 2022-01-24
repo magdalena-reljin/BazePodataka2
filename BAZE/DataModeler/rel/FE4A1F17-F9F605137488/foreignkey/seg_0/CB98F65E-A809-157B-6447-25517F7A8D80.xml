@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB98F65E-A809-157B-6447-25517F7A8D80" containerWithKeyObject="8CB29631-E2B0-BFA6-F90E-58615265BA2A" localFKIndex="59D2CB8C-2740-F17E-AF71-73A480BBE2D1" name="Nudi_Usluga_FK">
+<createdBy>computer</createdBy>
+<createdTime>2022-01-18 17:27:17 UTC</createdTime>
+<generatorID>95DFC2B7-7DE4-6FEB-6D6B-BD968DDCF565</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Usluga</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73ADC829-5DE0-E11E-5B17-BC4A6D170CD9</referredTableID>
+<keyObject>63A30E1E-43A9-D229-4460-DE57E32B0602</keyObject>
+<referredKeyID>63A30E1E-43A9-D229-4460-DE57E32B0602</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_USL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
